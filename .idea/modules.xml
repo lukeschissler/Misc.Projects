@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.idea/Misc. Projects.iml" filepath="$PROJECT_DIR$/.idea/Misc. Projects.iml" />
-=======
       <module fileurl="file://$PROJECT_DIR$/.idea/Misc.Projects.iml" filepath="$PROJECT_DIR$/.idea/Misc.Projects.iml" />
->>>>>>> breautiful_soup
     </modules>
   </component>
 </project>
