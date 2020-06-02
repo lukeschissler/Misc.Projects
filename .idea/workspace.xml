@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1ad5f17-439b-4400-87e0-1d20120bb3fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ASCII Art/ascii_art.py" beforeDir="false" afterPath="$PROJECT_DIR$/ASCIIart/ascii_art.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulSoup/my_soup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeautifulSoup/beautiful_soup.py" beforeDir="false" afterPath="$PROJECT_DIR$/BeautifulSoup/beautiful_soup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,5 +36,11 @@
       <updated>1590957474311</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="625" y="267" width="670" height="676" key="search.everywhere.popup" timestamp="1591066557475">
+      <screen x="0" y="23" width="1920" height="1094" />
+    </state>
+    <state x="625" y="267" width="670" height="676" key="search.everywhere.popup/1920.549.1440.877/0.23.1920.1094@0.23.1920.1094" timestamp="1591066557475" />
   </component>
 </project>
