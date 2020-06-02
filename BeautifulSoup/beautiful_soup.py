@@ -16,6 +16,16 @@ class BeautifulSoup():
         self.width = width
         self.height = height
 
+    def resume_state(self, file_name):
+        with open(file_name) as f:
+            my_lines = f.readlines()
+
+        file_state = [list(map(lambda x : int(x), x.strip())) for x in my_lines]
+        self.height = len(file_state)
+        self.width = len(file_state[0])
+
+        return file_state
+
     def set_random_state(self, fraction = 0.5) -> list:
         if fraction < 0 or fraction > 1:
             raise SoupError('Invalid fraction entered.')
@@ -73,6 +83,7 @@ class BeautifulSoup():
 
 
 def main():
+
     my_soup = BeautifulSoup(800,200)
     my_rand_state = my_soup.set_random_state(.5)
     my_soup.render(my_rand_state)
