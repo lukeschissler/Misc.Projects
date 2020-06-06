@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1ad5f17-439b-4400-87e0-1d20120bb3fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BlackJack/AIs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlackJack/AIs.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlackJack/AIs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlackJack/blackjack.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlackJack/blackjack.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,9 +46,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="625" y="267" width="670" height="676" key="search.everywhere.popup" timestamp="1591137122256">
-      <screen x="0" y="23" width="1920" height="1094" />
+    <state x="229" y="59" key="SettingsEditor" timestamp="1591456838754">
+      <screen x="0" y="23" width="1440" height="800" />
     </state>
+    <state x="229" y="59" key="SettingsEditor/0.23.1440.800@0.23.1440.800" timestamp="1591456838754" />
+    <state x="508" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591457615271">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="508" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.800@0.23.1440.800" timestamp="1591457615271" />
+    <state x="469" y="201" width="672" height="495" key="search.everywhere.popup" timestamp="1591457722453">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="469" y="201" width="672" height="495" key="search.everywhere.popup/0.23.1440.800@0.23.1440.800" timestamp="1591457722453" />
     <state x="625" y="267" width="670" height="676" key="search.everywhere.popup/1920.549.1440.877/0.23.1920.1094@0.23.1920.1094" timestamp="1591137122256" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BlackJack/blackjack.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

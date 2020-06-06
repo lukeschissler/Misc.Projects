@@ -1,13 +1,25 @@
 from random import random
 
+
 def random_ai():
-    return int(random)
+    return round(random())
 
 
+def bad_ai():
+    pass
+
+
+def decent_ai():
+    pass
+
+
+def perfect_ai():
+    pass
 
 
 def main():
-    print(random_ai)
+    print(random_ai())
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
