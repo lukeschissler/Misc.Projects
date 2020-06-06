@@ -1,4 +1,5 @@
 from random import shuffle
+from AIs import random_ai
 
 class Card:
 
@@ -31,6 +32,7 @@ class BlackJack:
     def __init__(self, players, decks=1) -> None:
         self.players =  players + ['Dealer']
         self.deck = Deck()
+        self.ais = ['random_ai']
 
     def deal(self) -> None:
         self.deck.shuffle()
@@ -71,11 +73,17 @@ class BlackJack:
             else:
                 print(f'Your hand is: {hand}. Possible sums: {hand_sum}')
 
+    def ai_play(self, ai) -> None:
+        pass
+
     def play(self) -> None:
         self.deal()
 
         for player in self.players:
-            self.turn(player)
+            if player in self.ais:
+                self.ai_play(player)
+            else:
+                self.turn(player)
 
         self.assess()
 
