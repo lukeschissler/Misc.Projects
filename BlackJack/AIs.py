@@ -4,6 +4,8 @@ from random import random
 def random_ai():
     return round(random())
 
+def dealer_al():
+    pass
 
 def bad_ai():
     pass
